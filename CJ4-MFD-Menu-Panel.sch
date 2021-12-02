@@ -625,37 +625,37 @@ Text GLabel 6300 2000 2    50   Output ~ 0
 CKLIST
 Text GLabel 7350 2000 2    50   Output ~ 0
 PASS_BRIEF
-Text GLabel 2600 5600 2    50   Input ~ 0
-UPR_MENU
-Text GLabel 2600 5700 2    50   Input ~ 0
-LWR_MENU
-Text GLabel 2600 5800 2    50   Input ~ 0
-CRSR
-Text GLabel 2600 5900 2    50   Input ~ 0
-ENG
-Text GLabel 2600 6000 2    50   Input ~ 0
-ESC
-Text GLabel 2600 6100 2    50   Input ~ 0
-TERR_WX
-Text GLabel 2600 6200 2    50   Input ~ 0
-DATABASE
-Text GLabel 2600 6300 2    50   Input ~ 0
-TFC
 Text GLabel 2600 6500 2    50   Input ~ 0
-NAV_DATA
+UPR_MENU
+Text GLabel 2600 6200 2    50   Input ~ 0
+LWR_MENU
+Text GLabel 5300 6000 2    50   Input ~ 0
+CRSR
+Text GLabel 5300 6100 2    50   Input ~ 0
+ENG
 Text GLabel 2600 6600 2    50   Input ~ 0
-MEM_1
+ESC
+Text GLabel 5300 6200 2    50   Input ~ 0
+TERR_WX
 Text GLabel 2600 6700 2    50   Input ~ 0
-MEM_2
+DATABASE
+Text GLabel 5300 6300 2    50   Input ~ 0
+TFC
 Text GLabel 2600 6800 2    50   Input ~ 0
+NAV_DATA
+Text GLabel 2600 6000 2    50   Input ~ 0
+MEM_1
+Text GLabel 5300 6700 2    50   Input ~ 0
+MEM_2
+Text GLabel 5300 5900 2    50   Input ~ 0
 MEM_3
 Text GLabel 2600 6900 2    50   Input ~ 0
 CHART
-Text GLabel 2600 7000 2    50   Input ~ 0
+Text GLabel 2600 6100 2    50   Input ~ 0
 RADAR_MENU
-Text GLabel 2600 7100 2    50   Input ~ 0
+Text GLabel 5300 6500 2    50   Input ~ 0
 ZOOM_MINUS
-Text GLabel 2600 7200 2    50   Input ~ 0
+Text GLabel 5300 5800 2    50   Input ~ 0
 SYS
 $Comp
 L power:+5V #PWR0109
@@ -775,25 +775,25 @@ Wire Wire Line
 	3850 7100 3850 7500
 Wire Wire Line
 	3900 7200 3700 7200
-Text GLabel 5300 5600 2    50   Input ~ 0
+Text GLabel 2600 7000 2    50   Input ~ 0
 CAS_PAGE
-Text GLabel 5300 5700 2    50   Input ~ 0
-ZOOM_PLUS
-Text GLabel 5300 5800 2    50   Input ~ 0
-CKLIST
-Text GLabel 5300 5900 2    50   Input ~ 0
-PASS_BRIEF
-Text GLabel 5300 6000 2    50   Input ~ 0
-LEFT
-Text GLabel 5300 6100 2    50   Input ~ 0
-CTR
-Text GLabel 5300 6200 2    50   Input ~ 0
-UP
-Text GLabel 5300 6300 2    50   Input ~ 0
-RIGHT
-Text GLabel 5300 6500 2    50   Input ~ 0
-DOWN
 Text GLabel 5300 6600 2    50   Input ~ 0
+ZOOM_PLUS
+Text GLabel 5300 5700 2    50   Input ~ 0
+CKLIST
+Text GLabel 5300 5600 2    50   Input ~ 0
+PASS_BRIEF
+Text GLabel 5300 6800 2    50   Input ~ 0
+LEFT
+Text GLabel 5300 6900 2    50   Input ~ 0
+CTR
+Text GLabel 5300 7200 2    50   Input ~ 0
+UP
+Text GLabel 5300 7100 2    50   Input ~ 0
+RIGHT
+Text GLabel 5300 7000 2    50   Input ~ 0
+DOWN
+Text GLabel 2600 6300 2    50   Input ~ 0
 E_BTN
 Text GLabel 8400 1150 0    50   Output ~ 0
 LEFT
@@ -1788,12 +1788,6 @@ Text GLabel 9800 2400 2    50   Input ~ 0
 B'
 Text GLabel 9800 2200 2    50   Input ~ 0
 B
-NoConn ~ 5300 6700
-NoConn ~ 5300 6800
-NoConn ~ 5300 6900
-NoConn ~ 5300 7000
-NoConn ~ 5300 7100
-NoConn ~ 5300 7200
 Wire Wire Line
 	2800 3850 2800 3950
 $Comp
@@ -1826,32 +1820,6 @@ F 22 "-40°C" H 2700 5750 50  0001 L CNN "temperature range low"
 	1    2700 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 7000 1200 7100
-$Comp
-L Interface_Expansion:MCP23017_ML U1
-U 1 1 61BAE6AC
-P 1900 6400
-F 0 "U1" H 1950 7450 50  0000 L CNN
-F 1 "MCP23017_ML" H 1950 7350 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 2100 5400 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2100 5300 50  0001 L CNN
-	1    1900 6400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 7200 1200 7500
-$Comp
-L Interface_Expansion:MCP23017_ML U2
-U 1 1 61BAFEB9
-P 4600 6400
-F 0 "U2" H 4650 7450 50  0000 L CNN
-F 1 "MCP23017_ML" H 4650 7350 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm" H 4800 5400 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4800 5300 50  0001 L CNN
-	1    4600 6400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Counter_Clockwise J1
 U 1 1 61BC0F89
@@ -1880,7 +1848,77 @@ Wire Wire Line
 Connection ~ 2800 3950
 Connection ~ 2800 4100
 Wire Wire Line
+	1200 7000 1200 7100
+$Comp
+L Interface_Expansion:MCP23017_SO U1
+U 1 1 61A8CC7A
+P 1900 6400
+F 0 "U1" H 1950 7450 50  0000 L CNN
+F 1 "MCP23017_SO" H 1950 7350 50  0000 L CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2100 5400 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2100 5300 50  0001 L CNN
+	1    1900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 7200 1200 7500
+$Comp
+L Interface_Expansion:MCP23017_SO U2
+U 1 1 61A8E2E8
+P 4600 6400
+F 0 "U2" H 4650 7450 50  0000 L CNN
+F 1 "MCP23017_SO" H 4650 7350 50  0000 L CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 4800 5400 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 4800 5300 50  0001 L CNN
+	1    4600 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
 	1200 7200 1200 7100
 Connection ~ 1200 7200
 Connection ~ 1200 7100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61C86547
+P 10150 3450
+F 0 "H1" H 10250 3496 50  0000 L CNN
+F 1 "MountingHole" H 10250 3405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 3450 50  0001 C CNN
+F 3 "~" H 10150 3450 50  0001 C CNN
+	1    10150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61C86FDA
+P 10150 3650
+F 0 "H2" H 10250 3696 50  0000 L CNN
+F 1 "MountingHole" H 10250 3605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 3650 50  0001 C CNN
+F 3 "~" H 10150 3650 50  0001 C CNN
+	1    10150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61C8D6E0
+P 10150 3850
+F 0 "H3" H 10250 3896 50  0000 L CNN
+F 1 "MountingHole" H 10250 3805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 3850 50  0001 C CNN
+F 3 "~" H 10150 3850 50  0001 C CNN
+	1    10150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61C93C97
+P 10150 4050
+F 0 "H4" H 10250 4096 50  0000 L CNN
+F 1 "MountingHole" H 10250 4005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 4050 50  0001 C CNN
+F 3 "~" H 10150 4050 50  0001 C CNN
+	1    10150 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
