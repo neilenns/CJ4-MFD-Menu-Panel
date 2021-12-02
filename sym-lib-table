@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name CJ4-MFD-Menu-Panel)(type Legacy)(uri ${KIPRJMOD}/CJ4-MFD-Menu-Panel.lib)(options "")(descr ""))
   (lib (name Collins-FMS-3000)(type Legacy)(uri D:/git/Collins-FMS-3000/Collins-FMS-3000.lib)(options "")(descr ""))
+  (lib (name CJ4-MFD-Menu-Panel-rescue)(type Legacy)(uri ${KIPRJMOD}/CJ4-MFD-Menu-Panel-rescue.lib)(options "")(descr ""))
 )

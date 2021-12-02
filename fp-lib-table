@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Collins-FMS-3000)(type KiCad)(uri D:/git/Collins-FMS-3000/Collins-FMS-3000.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri C:/Users/neile/Downloads/Enc_ALPS_EC11EBB24C03/eec.pretty)(options "")(descr ""))
+  (lib (name CJ4-MFD-Menu-Panel)(type KiCad)(uri ${KIPRJMOD}/CJ4-MFD-Menu-Panel.pretty)(options "")(descr ""))
+)

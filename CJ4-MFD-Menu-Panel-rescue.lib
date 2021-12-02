@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# EC11EBB24C03-CJ4-MFD-Menu-Panel
+#
+DEF EC11EBB24C03-CJ4-MFD-Menu-Panel ENC 0 40 Y Y 1 L N
+F0 "ENC" 0 200 50 H V L CNN
+F1 "EC11EBB24C03-CJ4-MFD-Menu-Panel" 0 300 50 H V L CNN
+F2 "ALPS-EC11EBB24C03-*" 0 400 50 H I L CNN
+F3 "http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11EBB24C03.html" 0 500 50 H I L CNN
+F4 "PCB Mount" 0 600 50 H I L CNN "Mounting Style"
+F5 "2 Channel" 0 700 50 H I L CNN "Number of Channels"
+F6 "30 Detent" 0 800 50 H I L CNN "Number of Detents"
+F7 "15000" 0 900 50 H I L CNN "Operating life (cycles)"
+F8 "Quadrature" 0 1000 50 H I L CNN "Output Type"
+F9 "10mA 5VDC" 0 1100 50 H I L CNN "Rating"
+F10 "15 PPR" 0 1200 50 H I L CNN "Resolution"
+F11 "Rotary" 0 1300 50 H I L CNN "Technology"
+F12 "Through Hole" 0 1400 50 H I L CNN "Termination Style"
+F13 "Incremental" 0 1500 50 H I L CNN "Type"
+F14 "Enc" 0 1600 50 H I L CNN "category"
+F15 "yes" 0 1800 50 H I L CNN "lead free"
+F16 "d2b5fb0d25cfef44" 0 1900 50 H I L CNN "library id"
+F17 "ALPS" 0 2000 50 H I L CNN "manufacturer"
+F18 "688-EC11EBB24C03" 0 2100 50 H I L CNN "mouser part number"
+F19 "ENCODER_PTH_11MM7X12MM0" 0 2200 50 H I L CNN "package"
+F20 "yes" 0 2300 50 H I L CNN "rohs"
+F21 "+85°C" 0 2400 50 H I L CNN "temperature range high"
+F22 "-40°C" 0 2500 50 H I L CNN "temperature range low"
+DRAW
+S 200 100 900 -800 1 1 0 f
+X A' 1 100 -100 100 R 40 40 1 1 O
+X B 10 100 -300 100 R 40 40 1 1 O
+X C' 2 100 -700 100 R 40 40 1 1 O
+X B' 3 100 -400 100 R 40 40 1 1 O
+X D 4 1000 0 100 L 40 40 1 1 O
+X E 5 1000 -100 100 L 40 40 1 1 O
+X MNT_1 6 1000 -600 100 L 40 40 1 1 N
+X MNT_2 7 1000 -700 100 L 40 40 1 1 N
+X A 8 100 0 100 R 40 40 1 1 O
+X C 9 100 -600 100 R 40 40 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
