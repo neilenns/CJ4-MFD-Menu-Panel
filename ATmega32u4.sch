@@ -171,83 +171,6 @@ F 3 "" H 900 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
-U 1 1 61B111E6
-P 2750 1650
-AR Path="/61B111E6" Ref="R?"  Part="1" 
-AR Path="/61F7F1B9/61B111E6" Ref="R?"  Part="1" 
-AR Path="/61AFDA18/61B111E6" Ref="R13"  Part="1" 
-F 0 "R13" H 2809 1696 50  0000 L CNN
-F 1 "330" H 2809 1605 50  0000 L CNN
-F 2 "Collins-FMS-3000:Perfect_0402" H 2750 1650 50  0001 C CNN
-F 3 "~" H 2750 1650 50  0001 C CNN
-F 4 "0402" H 2750 1650 50  0001 C CNN "JLC"
-F 5 "C25104" H 2750 1650 50  0001 C CNN "LCSC"
-	1    2750 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D?
-U 1 1 61B111EE
-P 2750 1850
-AR Path="/61B111EE" Ref="D?"  Part="1" 
-AR Path="/61F7F1B9/61B111EE" Ref="D?"  Part="1" 
-AR Path="/61AFDA18/61B111EE" Ref="D2"  Part="1" 
-F 0 "D2" V 2796 1780 50  0000 R CNN
-F 1 "YELLOW" V 2705 1780 50  0000 R CNN
-F 2 "Collins-FMS-3000:LED_0603_1608Metric" V 2750 1850 50  0001 C CNN
-F 3 "~" V 2750 1850 50  0001 C CNN
-F 4 "0603" H 2750 1850 50  0001 C CNN "JLC"
-F 5 "C72038" H 2750 1850 50  0001 C CNN "LCSC"
-	1    2750 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 61B111F4
-P 2750 1950
-AR Path="/61B111F4" Ref="#PWR?"  Part="1" 
-AR Path="/61F7F1B9/61B111F4" Ref="#PWR?"  Part="1" 
-AR Path="/61AFDA18/61B111F4" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 2750 1700 50  0001 C CNN
-F 1 "GND" H 2755 1777 50  0000 C CNN
-F 2 "" H 2750 1950 50  0001 C CNN
-F 3 "" H 2750 1950 50  0001 C CNN
-	1    2750 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 61B111FC
-P 2750 3350
-AR Path="/61B111FC" Ref="R?"  Part="1" 
-AR Path="/61F7F1B9/61B111FC" Ref="R?"  Part="1" 
-AR Path="/61AFDA18/61B111FC" Ref="R20"  Part="1" 
-F 0 "R20" H 2809 3396 50  0000 L CNN
-F 1 "330" H 2809 3305 50  0000 L CNN
-F 2 "Collins-FMS-3000:Perfect_0402" H 2750 3350 50  0001 C CNN
-F 3 "~" H 2750 3350 50  0001 C CNN
-F 4 "0402" H 2750 3350 50  0001 C CNN "JLC"
-F 5 "C25104" H 2750 3350 50  0001 C CNN "LCSC"
-	1    2750 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED_Small D?
-U 1 1 61B11203
-P 2750 3550
-AR Path="/61B11203" Ref="D?"  Part="1" 
-AR Path="/61F7F1B9/61B11203" Ref="D?"  Part="1" 
-AR Path="/61AFDA18/61B11203" Ref="D4"  Part="1" 
-F 0 "D4" V 2796 3480 50  0000 R CNN
-F 1 "GREEN" V 2705 3480 50  0000 R CNN
-F 2 "Collins-FMS-3000:LED_0603_1608Metric" V 2750 3550 50  0001 C CNN
-F 3 "~" V 2750 3550 50  0001 C CNN
-F 4 "0603" H 2750 3550 50  0001 C CNN "JLC"
-	1    2750 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 61B11209
 P 3150 3650
@@ -766,8 +689,6 @@ Wire Notes Line
 	3950 4200 5200 4200
 Text Notes 3950 4150 0    50   ~ 0
 Oscillator
-Wire Wire Line
-	2400 1550 2750 1550
 Text Label 2600 1650 2    50   ~ 0
 SCK
 Text Label 2600 1750 2    50   ~ 0
@@ -782,11 +703,6 @@ Wire Wire Line
 	2400 1850 2600 1850
 Wire Wire Line
 	2400 3650 2450 3650
-Wire Wire Line
-	2650 3650 2750 3650
-Connection ~ 2750 3650
-Wire Wire Line
-	2400 3250 2750 3250
 Wire Notes Line
 	550  700  550  5100
 Wire Notes Line
@@ -952,7 +868,7 @@ F 3 "~" H 2900 2600 50  0001 C CNN
 F 4 "0805" H 2900 2600 50  0001 C CNN "JLC"
 F 5 "C17604" H 2900 2600 50  0001 C CNN "LCSC"
 	1    2900 2600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2600 2750 2600 2700
@@ -978,8 +894,6 @@ Text HLabel 2400 3750 2    50   Input ~ 0
 LED_INTB
 Text HLabel 3200 2950 2    50   Input ~ 0
 INTA_1
-Wire Wire Line
-	3150 3650 2750 3650
 Wire Wire Line
 	2400 2750 2600 2750
 Wire Wire Line
@@ -1120,4 +1034,8 @@ Text Label 5500 2800 2    50   ~ 0
 MOSI
 Text Label 5500 2900 2    50   ~ 0
 SCK
+Wire Wire Line
+	2650 3650 3150 3650
+NoConn ~ 2400 3250
+NoConn ~ 2400 1550
 $EndSCHEMATC
