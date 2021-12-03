@@ -219,14 +219,8 @@ $EndComp
 Connection ~ 1750 4850
 Wire Wire Line
 	1750 4850 1800 4850
-NoConn ~ 2400 1950
-NoConn ~ 2400 2050
-NoConn ~ 2400 2150
 NoConn ~ 2400 2250
-NoConn ~ 2400 2450
-NoConn ~ 2400 2550
 NoConn ~ 2400 3350
-NoConn ~ 2400 3450
 NoConn ~ 2400 4450
 $Comp
 L Device:C_Small C?
@@ -890,7 +884,7 @@ Wire Wire Line
 Connection ~ 2750 2500
 Wire Wire Line
 	2750 2500 2900 2500
-Text HLabel 2400 3750 2    50   Input ~ 0
+Text HLabel 3200 3050 2    50   Input ~ 0
 LED_INTB
 Text HLabel 3200 2950 2    50   Input ~ 0
 INTA_1
@@ -939,26 +933,21 @@ Wire Wire Line
 Wire Wire Line
 	3200 2950 2400 2950
 Wire Wire Line
-	2400 3150 3150 3150
-Wire Wire Line
 	3200 3150 3150 3150
-Connection ~ 3150 3150
 Wire Wire Line
 	2400 3050 3200 3050
-Text HLabel 3200 3050 2    50   Input ~ 0
+Text HLabel 2400 3750 2    50   Input ~ 0
 INTA_2
 Wire Wire Line
 	950  1550 1200 1550
-Text HLabel 2400 3950 2    50   Input ~ 0
+Text HLabel 3100 1800 2    50   Input ~ 0
 A
-Text HLabel 2400 4050 2    50   Input ~ 0
-B
-Text HLabel 2400 4150 2    50   Input ~ 0
+Text HLabel 3100 1900 2    50   Input ~ 0
 A'
-Text HLabel 2400 4250 2    50   Input ~ 0
+Text HLabel 3100 2000 2    50   Input ~ 0
+B
+Text HLabel 3100 2100 2    50   Input ~ 0
 B'
-Text HLabel 2400 4350 2    50   Input ~ 0
-E_BTN
 $Comp
 L CJ4-MFD-Menu-Panel:ATmega32U4RC-MU U4
 U 1 1 61C5A9A1
@@ -970,17 +959,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    1800 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 1250 1950 1250
-Wire Wire Line
-	1850 1250 1900 1250
 Connection ~ 5600 3000
-Wire Wire Line
-	1750 1250 1850 1250
-Connection ~ 1850 1250
-Connection ~ 1950 1250
-Wire Wire Line
-	1950 1250 2050 1250
 Wire Notes Line
 	3950 3600 7000 3600
 Wire Notes Line
@@ -1007,10 +986,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 2900 5500 2900
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0115
 U 1 1 61AC5B6E
 P 4700 2400
-F 0 "#PWR?" H 4700 2250 50  0001 C CNN
+F 0 "#PWR0115" H 4700 2250 50  0001 C CNN
 F 1 "+5V" H 4715 2573 50  0000 C CNN
 F 2 "" H 4700 2400 50  0001 C CNN
 F 3 "" H 4700 2400 50  0001 C CNN
@@ -1018,10 +997,10 @@ F 3 "" H 4700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 61AC65BA
 P 4700 3300
-F 0 "#PWR?" H 4700 3050 50  0001 C CNN
+F 0 "#PWR0124" H 4700 3050 50  0001 C CNN
 F 1 "GND" H 4705 3127 50  0000 C CNN
 F 2 "" H 4700 3300 50  0001 C CNN
 F 3 "" H 4700 3300 50  0001 C CNN
@@ -1038,4 +1017,53 @@ Wire Wire Line
 	2650 3650 3150 3650
 NoConn ~ 2400 3250
 NoConn ~ 2400 1550
+Wire Wire Line
+	1900 1250 1950 1250
+Connection ~ 1850 1250
+Wire Wire Line
+	1850 1250 1900 1250
+Wire Wire Line
+	1750 1250 1850 1250
+Wire Wire Line
+	2400 2450 2500 2450
+Wire Wire Line
+	2500 2450 2500 2400
+Wire Wire Line
+	2500 2400 2600 2400
+Wire Wire Line
+	2600 2400 2600 2100
+Wire Wire Line
+	2600 2100 3100 2100
+Wire Wire Line
+	2400 2150 2550 2150
+Wire Wire Line
+	2550 2150 2550 2000
+Wire Wire Line
+	2550 2000 3100 2000
+Wire Wire Line
+	2400 2050 2500 2050
+Wire Wire Line
+	2500 2050 2500 1900
+Wire Wire Line
+	2500 1900 3100 1900
+Wire Wire Line
+	2400 1950 2950 1950
+Wire Wire Line
+	2950 1950 2950 1800
+Wire Wire Line
+	2950 1800 3100 1800
+NoConn ~ 2400 3950
+NoConn ~ 2400 4050
+NoConn ~ 2400 4150
+NoConn ~ 2400 4250
+NoConn ~ 2400 4350
+Wire Wire Line
+	2400 3450 2450 3450
+Wire Wire Line
+	2450 3450 2450 3150
+Wire Wire Line
+	2450 3150 3150 3150
+Connection ~ 3150 3150
+NoConn ~ 2400 3150
+NoConn ~ 2400 2550
 $EndSCHEMATC

@@ -1583,8 +1583,6 @@ Connection ~ 9050 3050
 Wire Notes Line
 	8900 1850 8900 5550
 Wire Notes Line
-	8900 5550 11150 5550
-Wire Notes Line
 	11150 5550 11150 1850
 Wire Notes Line
 	8900 1850 11150 1850
@@ -1809,7 +1807,6 @@ F8 "A" I L 6700 5550 50
 F9 "B" I L 6700 5650 50 
 F10 "A'" I L 6700 5750 50 
 F11 "B'" I L 6700 5850 50 
-F12 "E_BTN" I L 6700 5950 50 
 $EndSheet
 Wire Wire Line
 	6700 4950 6650 4950
@@ -1855,8 +1852,6 @@ Wire Wire Line
 	6700 5750 6650 5750
 Wire Wire Line
 	6700 5850 6650 5850
-Wire Wire Line
-	6700 5950 6650 5950
 Text GLabel 6650 5550 0    50   Input ~ 0
 A
 Text GLabel 6650 5650 0    50   Input ~ 0
@@ -1865,6 +1860,6 @@ Text GLabel 6650 5750 0    50   Input ~ 0
 A'
 Text GLabel 6650 5850 0    50   Input ~ 0
 B'
-Text GLabel 6650 5950 0    50   Input ~ 0
-E_BTN
+Wire Notes Line
+	8900 5550 11150 5550
 $EndSCHEMATC
