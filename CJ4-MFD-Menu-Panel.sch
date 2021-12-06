@@ -627,17 +627,17 @@ Text GLabel 2500 6500 2    50   Input ~ 0
 UPR_MENU
 Text GLabel 2500 6200 2    50   Input ~ 0
 LWR_MENU
-Text GLabel 5200 6000 2    50   Input ~ 0
+Text GLabel 5200 6300 2    50   Input ~ 0
 CRSR
-Text GLabel 5200 6100 2    50   Input ~ 0
+Text GLabel 5200 6200 2    50   Input ~ 0
 ENG
 Text GLabel 2500 6600 2    50   Input ~ 0
 ESC
-Text GLabel 5200 6200 2    50   Input ~ 0
+Text GLabel 5200 6100 2    50   Input ~ 0
 TERR_WX
 Text GLabel 2500 6700 2    50   Input ~ 0
 DATABASE
-Text GLabel 5200 6300 2    50   Input ~ 0
+Text GLabel 5200 6000 2    50   Input ~ 0
 TFC
 Text GLabel 2500 6800 2    50   Input ~ 0
 NAV_DATA
@@ -651,7 +651,7 @@ Text GLabel 2500 6900 2    50   Input ~ 0
 CHART
 Text GLabel 2500 6100 2    50   Input ~ 0
 RADAR_MENU
-Text GLabel 5200 6500 2    50   Input ~ 0
+Text GLabel 5200 6600 2    50   Input ~ 0
 ZOOM_MINUS
 Text GLabel 5200 5800 2    50   Input ~ 0
 SYS
@@ -773,7 +773,7 @@ Wire Wire Line
 	3800 7200 3600 7200
 Text GLabel 2500 7000 2    50   Input ~ 0
 CAS_PAGE
-Text GLabel 5200 6600 2    50   Input ~ 0
+Text GLabel 5200 6500 2    50   Input ~ 0
 ZOOM_PLUS
 Text GLabel 5200 5700 2    50   Input ~ 0
 CKLIST
