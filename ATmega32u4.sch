@@ -221,7 +221,6 @@ Wire Wire Line
 	1750 4850 1800 4850
 NoConn ~ 2400 2250
 NoConn ~ 2400 3350
-NoConn ~ 2400 4450
 $Comp
 L Device:C_Small C?
 U 1 1 61B11230
@@ -945,20 +944,9 @@ A
 Text HLabel 3100 1900 2    50   Input ~ 0
 A'
 Text HLabel 3100 2000 2    50   Input ~ 0
-B
-Text HLabel 3100 2100 2    50   Input ~ 0
 B'
-$Comp
-L CJ4-MFD-Menu-Panel:ATmega32U4RC-MU U4
-U 1 1 61C5A9A1
-P 1800 3050
-F 0 "U4" H 1800 1161 50  0000 C CNN
-F 1 "ATmega32U4RC-MU" H 1800 1070 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 1800 800 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1800 3050 50  0001 C CNN
-	1    1800 3050
-	1    0    0    -1  
-$EndComp
+Text HLabel 3100 2100 2    50   Input ~ 0
+B
 Connection ~ 5600 3000
 Wire Notes Line
 	3950 3600 7000 3600
@@ -1018,13 +1006,6 @@ Wire Wire Line
 NoConn ~ 2400 3250
 NoConn ~ 2400 1550
 Wire Wire Line
-	1900 1250 1950 1250
-Connection ~ 1850 1250
-Wire Wire Line
-	1850 1250 1900 1250
-Wire Wire Line
-	1750 1250 1850 1250
-Wire Wire Line
 	2400 2450 2500 2450
 Wire Wire Line
 	2500 2450 2500 2400
@@ -1053,10 +1034,6 @@ Wire Wire Line
 Wire Wire Line
 	2950 1800 3100 1800
 NoConn ~ 2400 3950
-NoConn ~ 2400 4050
-NoConn ~ 2400 4150
-NoConn ~ 2400 4250
-NoConn ~ 2400 4350
 Wire Wire Line
 	2400 3450 2450 3450
 Wire Wire Line
@@ -1067,6 +1044,34 @@ Connection ~ 3150 3150
 NoConn ~ 2400 3150
 NoConn ~ 2400 2550
 Wire Wire Line
+	1750 1250 1850 1250
+Wire Wire Line
+	1850 1250 1900 1250
+Connection ~ 1850 1250
+Wire Wire Line
 	1950 1250 2050 1250
+Wire Wire Line
+	1900 1250 1950 1250
 Connection ~ 1950 1250
+$Comp
+L CJ4-MFD-Menu-Panel:ATmega32U4RC-MU U4
+U 1 1 61C5A9A1
+P 1800 3050
+F 0 "U4" H 1800 1161 50  0000 C CNN
+F 1 "ATmega32U4RC-MU" H 1800 1070 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 1800 800 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	1    0    0    -1  
+$EndComp
+Text HLabel 2400 4450 2    50   Input ~ 0
+CTR
+Text HLabel 2400 4350 2    50   Input ~ 0
+UP
+Text HLabel 2400 4250 2    50   Input ~ 0
+RIGHT
+Text HLabel 2400 4150 2    50   Input ~ 0
+DOWN
+Text HLabel 2400 4050 2    50   Input ~ 0
+LEFT
 $EndSCHEMATC
