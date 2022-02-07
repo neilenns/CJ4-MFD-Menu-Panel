@@ -71,14 +71,14 @@ jobs:
         run: echo "version=${{ github.event.inputs.version }}" >> $GITHUB_ENV
         if: startsWith(github.ref, 'refs/tags/') == false
 
-      # Get the current date and time, in the timezone specified above, for use later.
-      - name: Get current date and time
+      # Get the current date, in the timezone specified above, for use later.
+      - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d %T')"
+        run: echo "::set-output name=date::$(TZ='${{ env.Timezone }}' date +'%Y-%m-%d')"
 
       # Do a string replacement in the schematic file to set the version and date.
       # Any instance of %%version%% in the schematic gets replaced with the release version.
-      # Any instance of %%date%% in the schematic gets replaced with the release date and time.
+      # Any instance of %%date%% in the schematic gets replaced with the release date.
       - name: Set schematic version
         uses: jacobtomlinson/gha-find-replace@v1
         with:
@@ -95,7 +95,7 @@ jobs:
 
       # Do a string replacement in the PCB file to set the version and date.
       # Any instance of %%version%% in the schematic gets replaced with the release version.
-      # Any instance of %%date%% in the schematic gets replaced with the release date and time.
+      # Any instance of %%date%% in the schematic gets replaced with the release date.
       - name: Set PCB version
         uses: jacobtomlinson/gha-find-replace@v1
         with:
