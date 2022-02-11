@@ -272,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2900 3950 3750
 Text GLabel 3600 3000 2    50   Output ~ 0
-E_BTN
+DATA
 $Comp
 L power:+5V #PWR0101
 U 1 1 61AA7728
@@ -616,7 +616,7 @@ CKLIST
 Text GLabel 5200 6250 2    50   Input ~ 0
 PASS_BRIEF
 Text GLabel 2500 6150 2    50   Input ~ 0
-E_BTN
+DATA
 Text GLabel 8300 1150 0    50   Output ~ 0
 LEFT
 Text GLabel 8300 1300 0    50   Output ~ 0

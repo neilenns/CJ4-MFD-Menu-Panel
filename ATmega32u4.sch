@@ -1077,4 +1077,12 @@ Text HLabel 2400 4350 2    50   Input ~ 0
 DOWN
 Text HLabel 2400 4050 2    50   Input ~ 0
 LEFT
+Text Notes 550  5600 0    50   ~ 0
+Encoder pin connections\nA: D8\nA': D9\nB: D5\nB': D10
+Text Notes 550  6000 0    50   ~ 0
+I2C pin connections\nSDA: D2\nSCL: D3\nSDB: D6
+Text Notes 550  6400 0    50   ~ 0
+Interrupt pin connections\nINTA_1: D0\nINTA_2: D7\nLED_INTB: D1
+Text Notes 550  6950 0    50   ~ 0
+5-way controller pin connections\nLEFT: A4\nUP: A3\nRIGHT: A2\nDOWN: A1\nCTR: A0
 $EndSCHEMATC
