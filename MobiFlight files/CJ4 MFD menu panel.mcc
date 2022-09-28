@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="40c295ea-6e46-421c-927d-83bb1052b5bf">
+      <active>false</active>
+      <description>MFD panel - brightness</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="" />
+        <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        <display type="Pin" serial="CJ4 MFD panel/ SN-fe3-c71" trigger="normal" pin="Brightness" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="4328343a-ef23-41ee-876a-85fa3039137b">
+      <active>true</active>
+      <description>MFD panel - UPR MENU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="UPR_MENU" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_UPR_MENU" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5d1e8183-2d98-4a96-b970-e55349624451">
+      <active>true</active>
+      <description>MFD panel - LWR MENU</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="LWR_MENU" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_LWR_MENU" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d3605715-8085-4d89-b515-7a5d7ad0157a">
+      <active>true</active>
+      <description>MFD panel - ENG</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ENG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_ENG" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e2581568-f383-4fdd-84e2-5433664e2eea">
+      <active>true</active>
+      <description>MFD panel - ESC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ESC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_ESC" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="95de228d-0ae6-4139-9d50-4c78c3aaf439">
+      <active>true</active>
+      <description>MFD panel - TERR WX</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="TERR_WX" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_TERR_WX" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6c59d979-09bd-4370-8316-ed2bed8f1a09">
+      <active>true</active>
+      <description>MFD panel - TFC</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="TFC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_TFC" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a5fb4e33-427b-4929-86dd-8433197ab065">
+      <active>true</active>
+      <description>MFD panel - NAV DATA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="NAV_DATA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_NAV_DATA" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3a400fe3-8c52-4ed0-8fa5-5460e6b619fe">
+      <active>true</active>
+      <description>MFD panel - MEM 1 short</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_MEM1_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="ee039130-9ef7-4112-baee-4cfb997ad408">
+      <active>true</active>
+      <description>MFD panel - MEM 1 long</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_1_LONG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Hold_MEM1_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="e3da502a-4775-48ed-b97f-5430bc7161ef">
+      <active>true</active>
+      <description>MFD panel - MEM 2 short</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_MEM2_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="dbc17795-182f-433a-9e8c-fec99c3b26f2">
+      <active>true</active>
+      <description>MFD panel - MEM 2 long</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_2_LONG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Hold_MEM2_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="d919cc1d-1c41-4ad4-b0b3-ab01f5e91bc7">
+      <active>true</active>
+      <description>MFD panel - MEM 3 short</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_3" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_MEM3_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="87b39ce3-c3e6-4798-b6ee-acc417f3763f">
+      <active>true</active>
+      <description>MFD panel - MEM 3 long</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="MEM_3_LONG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Hold_MEM3_1" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c49d7a26-ffd3-4d4a-9e5c-ad9ee41eba11">
+      <active>true</active>
+      <description>MFD panel - CHART</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="CHART" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_Chart_1" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9013ce7a-c988-4504-b737-0090d0993062">
+      <active>true</active>
+      <description>MFD panel - ZOOM MINUS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ZOOM_MINUS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_ZOOM_DEC" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="a7fc8d11-664e-4f16-9cba-ef3ce2fb03ab">
+      <active>true</active>
+      <description>MFD panel - ZOOM PLUS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ZOOM_PLUS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_ZOOM_DEC" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="964bf201-afa5-42e1-9eae-5eb44e0a69d7">
+      <active>true</active>
+      <description>MFD panel - SYS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="SYS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_SYS" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="894d6516-7299-4d04-9d0d-dd240fe023e6">
+      <active>true</active>
+      <description>MFD panel - CAS PAGE</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="CAS_PAGE" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_CAS_PAGE" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="5474f521-8f39-4b26-80ad-c89d4bd1f8d2">
+      <active>true</active>
+      <description>MFD panel - CKLIST</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="CKLIST" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_CKLST_1" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6b073ecf-b57b-4df8-8f01-5e1cf8faa9e8">
+      <active>true</active>
+      <description>MFD panel - PASS BRIEF</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="PASS_BRIEF" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_Push_PASSBRIEF_1" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="07ad4afd-887f-4bf6-940c-255ee5fdf31e">
+      <active>true</active>
+      <description>MFD panel - DATA</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ENC_1" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_DATA_DEC" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_DATA_INC" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="29ff47e6-9615-428a-918b-050842e9de7a">
+      <active>true</active>
+      <description>MFD panel - DATA short</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="DATA" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_DATA_PUSH" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="fe496ebc-1d2b-4003-be28-7f58fd8c1f9e">
+      <active>true</active>
+      <description>MFD panel - DATA long</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="DATA_LONG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress />
+          <onRelease type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_DATA_PUSH_LONG" />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="989737c3-252a-43b2-acc1-0d172d0f51fc">
+      <active>true</active>
+      <description>MFD panel - JOYSTICK LEFT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="LEFT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_JOYSTICK_LEFT" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c20661cf-5ab2-4325-ad6d-44aac7f44957">
+      <active>true</active>
+      <description>MFD panel - JOYSTICK RIGHT</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="RIGHT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_JOYSTICK_RIGHT" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7fc5a08e-6c02-4a33-bf1a-06eb18e50094">
+      <active>true</active>
+      <description>MFD panel - JOYSTICK UP</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="UP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_JOYSTICK_UP" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="b53b7316-9b74-45fa-925f-06d3a6002bb3">
+      <active>true</active>
+      <description>MFD panel - JOYSTICK DOWN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="DOWN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_JOYSTICK_DOWN" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7344fabc-175f-4d99-8422-85ab8e8dd20b">
+      <active>true</active>
+      <description>MFD panel - MENU ADV</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.2.0.2, Culture=neutral, PublicKeyToken=null" serial="CJ4 MFD panel/ SN-fe3-c71" name="ENC_2" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_MENU_ADV_DEC" />
+          <onLeftFast />
+          <onRight type="MSFS2020EventIdInputAction" eventId="Generic_Lwr_MENU_ADV_INC" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
